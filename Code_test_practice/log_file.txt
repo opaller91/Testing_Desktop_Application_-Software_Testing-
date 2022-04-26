@@ -1,0 +1,17 @@
+START PROGRAM : 2022-02-02 17:19:11.637306+07:00
+Test by : RINRADA TIRASIRICHAI
+Error Code : 0=Not error, 1=X-min more than X-max , 2=X can't less than zero , 3=Y-min more than Y-max , 4=Y can't less than zero , 5=not match choose test case
+TestCaseNumber,ExpectedResult,ActualResult,ErrorCode
+1,pass,pass,0
+2,pass,pass,0
+3,pass,pass,0
+4,pass,pass,0
+5,error input of x,error input of x,1
+6,error input of x,error input of x,2
+7,error input of y,error input of y,3
+8,error input of y,error input of y,4
+9,error input choose test case,error input choose test case,5
+Pass testcase :4
+Fail testcase :5
+END PROGRAM : 2022-02-02 17:19:11.651983+07:00
+หมายเหตุ: แต่ละ test case ดูได้จากการ run source code
